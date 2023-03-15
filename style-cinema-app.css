@@ -67,11 +67,15 @@ h2 {
     line-height: 40px;
 }
 
-h3 {
+.name-title {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
+    max-width: 850px;
+    min-width: 319px;
+    width: 60vw;
+
 }
 
 .header {
@@ -126,7 +130,7 @@ h3 {
     gap: 176px;
     margin: auto;
     max-width: 850px;
-    min-width: 320px;
+    min-width: 319px;
     width: 60vw;
 }
 
