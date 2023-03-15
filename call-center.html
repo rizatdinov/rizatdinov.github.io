@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-call-center.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Call center</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="daniel">
+                <a href="index.html">Daniel Rizatdinov</a>
+            </div>
+            <div class="contact">
+                <!--<a href="">CV</a>-->
+                <a href="mailto:rizatdinou@gmail.com">Email</a>
+            </div>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="main">
+            <section class="section-about">
+                <div class="block">
+                    <div class="block-title">
+                        Task
+                    </div>
+                    <div class="block-describe">
+                        Design an interface that enables call center operators to schedule meetings with clients.
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-title">
+                        History
+                    </div>
+                    <div class="block-describe">
+                        To obtain a Tinkoff Bank card, applicants can leave an application on the website or by phone. Once the card is ready, an operator will contact the client to arrange a meeting with a courier. The card can be delivered to the client’s home, workplace, or any other location that is convenient for them.
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-title">
+                        Script
+                    </div>
+                    <div class="block-describe">
+                        The operator contacts a new client of the bank who has submitted an application.
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-title">
+                        Goals
+                    </div>
+                    <div class="sub-block">
+                        <div class="block-subtitle">
+                            As an operator, I can:
+                        </div>
+                        <ul>
+                            <li>— Provide advice to the client regarding the product they have received.</li>
+                            <li>— View the client’s appointment address, or add a new one for them, whether it’s their work or home address.</li>
+                            <li>— Mute the microphone.</li>
+                            <li>— Set up appointments for clients to receive their bank product.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-title">
+                        Research
+                    </div>
+                    <div class="sub-block">
+                        <div class="block-subtitle">
+                            I’m client:
+                        </div>
+                        <div class="block-describe">
+                            I participated in the role of a client by filling out a form on the bank’s website and recording a conversation with an operator. Through this process, I learned the sequence of questions asked and the corresponding actions taken by the operator.
+                        </div>
+                    </div>
+                    <div class="sub-block">
+                        <div class="block-subtitle">
+                            Operator 1st:
+                        </div>
+                        <div class="block-describe">
+                            I contacted the bank directly and asked questions about their program, including any potential issues and the algorithm of actions. The operator informed me that the algorithm varies depending on the data provided by the client. They did not mention any specific problems, likely because I am not an employee of the bank.
+                        </div>
+                    </div>
+                    <div class="sub-block">
+                        <div class="block-subtitle">
+                            Operator 2nd:
+                        </div>
+                        <div class="block-describe">
+                            I contacted an operator who is also a blogger and asked them questions about a specific scenario. The scenario involved me calling as a new user and asking about the operator’s actions. The operator explained the algorithm for this scenario, but did not mention any specific problems.
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-title">
+                        Process
+                    </div>
+                    <div class="block-describe">
+                        I compiled the Userflow based on available data, and determined the content of the algorithms that involve employees. I ensured that the version for browsers was compatible with various devices that operators may use, and the workspace width was optimized for this scenario. I used the current design system and incorporated colors from the official website of the bank into the layout.
+                    </div>
+                    <div class="sub-block">
+                        <div class="block-subtitle">
+                            Telephony:
+                        </div>
+                        <div class="block-describe describe-image">
+                            I utilized existing solutions such as Zoom, Google Meet, Discord, and Skype services, which are recognizable patterns that feature a panel located at the bottom of the screen and always on top of other blocks.
+                            <img class="calling-panel" src="picture/56-calling-panel.png" alt="56-calling-panel">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-screens client-page">
+                    <div class="block">
+                        <div class="block-title">
+                            Information about client
+                        </div>
+                        <div class="block-describe">
+                            The operator can access the client card, which contains the primary data that the client filled out on the site, as well as their call history and status updates. The operator can also log new calls as needed.
+                        </div>
+                    </div>
+                <img class="web-page" src="picture/57-client's-card.png" alt="57-client's-card">
+            </section>
+            <section class="section-screens request-page">
+                    <div class="block">
+                        <div class="block-title">
+                            Request page
+                        </div>
+                        <div class="block-describe">
+                            On this page, the operator can verify the personal data and product details provided by the client on the site. It’s important to note that the product type and payment system cannot be changed. Along with the personal data, the operator can modify the cashback categories and currency. The operator can also provide advice on the product, as there is a block displaying information on the ordered product.
+                        </div>
+                    </div>
+                <img class="web-page" src="picture/58-first-screen's-request.png" alt="58-first-screen's-reques">
+            </section>
+            <section class="section-screens second-request-page">
+                    <div class="block">
+                        <div class="block-title">
+                            Request page, address verification
+                        </div>
+                        <div class="block-describe">
+                            On this page, the operator confirms the address, time, and comments provided by the user. The checkbox is checked by default, and the address, date, time, and comments can be edited if necessary. The operator explains how the appointment will proceed and shares any important information before confirming the appointment. If there are any errors or changes, the operator can go back to edit the data before finalizing the making appointment
+                        </div>
+                    </div>
+                <img class="web-page" src="picture/59-second-scren's-request.png" alt="59-second-scren's-request">
+            </section>
+            <section class="section-screens add-new-addres-page">
+                <div class="describe-image">
+                    <div class="block">
+                        <div class="block-title">
+                            Request page, checking address with adding a new one
+                        </div>
+                        <div class="block-describe">
+                            If the client wants the operator to add another delivery address, this is how the page will appear. The added address can be removed, and the delivery address can be selected, along with the date, time, and comments. These fields will be active and can be modified if the client changes their mind.
+                        </div>
+                    </div>
+                </div>
+                <img class="web-page" src="picture/60-Second-scren's-request-(two_address).png" alt="60-Second-scren's-request-(two_address)">
+            </section>
+            <section class="section-screens selecting-new-addres-page">
+                <div class="describe-image">
+                    <div class="block">
+                        <div class="block-title">
+                            Request page, checking the address with adding a new one and selecting it for delivery
+                        </div>
+                        <div class="block-describe">
+                            If the customer requested to use the new address as the delivery address, the operator will set the checkbox next to the new address. The date and time data from the previous inputs will be transferred to the new address. The inputs for date, time, and comments for the old address will become inactive. Once the operator has checked all the data, they can click on the 'Make Appointment' button to confirm the appointment.
+                        </div>
+                    </div>
+                </div>
+                <img class="web-page" src="picture/61-second-scren's-request-(choosen second address).png" alt="61-second-scren's-request-(choosen second address)">
+            </section>
+            <img class="animation" src="picture/call-center.gif" alt="call-center">
+            <div class="block">
+                <div class="block-title">
+                    The meeting is scheduled!
+                </div>
+                <div class="block-describe">
+                    After the operator has clicked the 'Make Appointment' button, the request is forwarded to the delivery department. The user’s information is passed on along with the appointment details
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="copyright"> 
+                 © 2023
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

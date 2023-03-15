@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-cinema-app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Cinema app</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="daniel">
+                <a href="index.html">Daniel Rizatdinov</a>
+            </div>
+            <div class="contact">
+                <!-- <a href="index.html">CV</a> -->
+                <a href="mailto:rizatdinou@gmail.com">Email</a>
+            </div>
+        </nav>
+    </header>
+    <div class="content">
+        <main class="main">
+            <section class="about section">
+                <div class="concept">
+                    <h2>About concept</h2>
+                    <div class="describe">
+                        I am offering a solution for mobile online cinema applications. This will assist people in discovering movies to watch and spending quality time with their friends, family, and acquaintances. The application will be particularly useful in that it enables you to engage in voice or text chat with your friends while you watch the movie you previously selected.
+                    </div>
+                </div>
+                <div class="name">
+                    <h3>Problem</h3>
+                    <div class="describe">
+                        Many people are unable to locate an app that allows them to watch films together online. Oftentimes, people resort to alternative solutions to address this issue.
+                    </div>
+                    <div class="describe">
+                        How people solve this problem:
+                    </div>
+                    <div class="describe left-about">
+                        Streaming services require the initiator to create a stream from their PC or laptop. However, this solution has some drawbacks, such as the inability to use voice chat and limited options for text chat. Additionally, the initiator must possess a PC or laptop for streaming, which can be a challenge and may not be accessible to everyone.
+                    </div>
+                    <div class="describe left-about">
+                        There are various messaging services that allow for screen sharing, which enables your friends to engage in voice and text chat. However, this method has similar limitations to the streaming solution, with the exception of the ability to use voice chat.
+                    </div>
+                    <div class="describe">
+                        Even when utilizing messaging services on a smartphone, it is only possible to translate the browser screen and not the entire device screen, which is necessary when using an online cinema app. This limitation may lead to the use of unofficial or pirated services.
+                    </div>
+                </div>
+                <div class="name">
+                    <h3>Solution</h3>
+                    <div class="describe">
+                        This conceptual solution enables individuals to watch films together online. When using a mobile cinema app with this feature, users can watch the film with their friends and engage in voice or text chat. Additionally, other individuals can invite users to watch a film together. I will describe this function in greater detail below.
+                    </div>
+                </div>
+                <div class="name">
+                    <h3>User flow: “Inviting Friends”</h3>
+                    <div class="describe">
+                        This flow demonstrates how the user will navigate between screens to create a request for their friends.
+                    </div>
+                    <img class="flow" src="picture\01-userflow-invite-friends-hight.png" alt="01-userflow-invite-friends">
+                </div>
+            </section>
+            <section class="choosing-movie section">
+                <h2>How it works</h2>
+                <div class="name">
+                    <h3>Choosing a movie<h3>
+                    <div class="describe">
+                        From the main screen, you can access any film’s page, and from there, you can invite your friends to watch the movie together, either immediately or at a later time.
+                    </div>
+                </div>
+                <div class="two-images">
+                    <img class="mobile-screen" src="picture\02-main-page.png" alt="02-main-page">
+                    <img class="mobile-screen" src="picture\03-page-of-movie.png" alt="03-page-of-movie">
+                </div>
+            </section>
+            <section class="choosing-friends section">
+                <div class="name">
+                    <h3>Choosing friends for invite<h3>
+                    <div class="describe">
+                        When you select certain friends, you have the opportunity to invite new friends by using the “Add New Friends” button. The system will open a new search page, where you can find new people and invite them. After adding new friends, the system will return you to the chosen friends page.                    
+                    </div>
+                </div>
+                <div class="two-images">
+                    <img class="mobile-screen" src="picture\04-Friends -choosing.png" alt="04-Friends -choosing">
+                    <img class="mobile-screen" src="picture\05-Friends -choosed.png" alt="05-Friends -choosed">
+                </div>
+                <div class="img-choosing-friend">
+                    <div class="img-choosing-friend-caption">
+                        If you have selected many friends, your selected friends will be displayed in a horizontal scroll.
+                    </div>
+                    <img class="choosing-panel" src="picture\06-Choosing-panel-no-background.png" alt="06-Choosing-panel">
+                </div>
+            </section>
+            <section class="choosing-a-date section">
+                <div class="name">
+                    <h3>Choosing a date<h3>
+                    <div class="describe">
+                        You can select a date and time to plan your viewing, or you can send a request to watch at the current time and begin watching immediately
+                    </div>
+                </div>
+                <div class="two-images">
+                    <img class="mobile-screen" src="picture\07-Choose-date.png" alt="07-Choose-date">
+                    <img class="mobile-screen" src="picture\08-Choose-time.png" alt="08-Choose-time">
+                </div>
+            </section>
+            <section class="request-notification section">
+                <div class="name">
+                    <h3>Request notification<h3>
+                    <div class="describe">
+                        At the end of the process, you will receive a notification about the scheduled movie, which you can cancel if desired.
+                    </div>
+                </div>
+                <div class="two-images">
+                    <img class="mobile-screen" src="picture\09-Request-sent.png" alt="09-Request-sent">
+                    <img class="mobile-screen" src="picture\10-Request-was-cancel.png" alt="10-Request-was-cancel">
+                </div>
+            </section>
+            <img class="animation" src="picture\invite-friend.gif">
+            <section class="user-flow section">
+                <div class="name">
+                    <h3>User flow: “Managing Your Planned List”<h3>
+                </div>
+                <img class="flow" src="picture\11-User-flow-Managing-Your-Planned-List-hght.png" alt="11-User-flow-Managing-Your-Planned-List-hght">
+            </section>
+            <section class="page-of-planned-list section">
+                <h3>Page of “Planned List”</h3>
+                <div class="two-images">
+                    <img class="mobile-screen" src="picture\12-Profile-page.png" alt="12-Profile-page">
+                    <div class="list">
+                        <div class="describe">
+                            Firstly, you can view a list of the movies you have planned to watch.
+                        </div>
+                        <div class="describe">
+                            You have the option to swipe left to view your friends' list or swipe right to see the movies you have already watched.
+                        </div>
+                        <div class="describe">
+                            If you confirmed a friend’s request, but then that friend canceled the request, the movie will be automatically removed from your planned list.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about-planned-list section">
+                <h3>About planned list</h3>
+                <div class="panel-cards">
+                    <div class="cards-row">
+                        <div class="panel-card">
+                            <img class="card" src="picture\13-planned-list-canceled.png" alt="13-planned-list-canceled">
+                            <div class="card-caption">
+                                In this example, you can see that one of your friends has cancelled your request, but another friend has confirmed it.
+                            </div>
+                        </div>
+                        <div class="panel-card">
+                            <img class="card" src="picture\14-planned-list-a-lot.png" alt="14-planned-list-a-lot">
+                            <div class="card-caption">
+                                If a lot of people confirmed your request, but another group of people cancelled, your request will appear like this.
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="cards-row">
+                        <div class="panel-card">
+                            <img class="card" src="picture\15-planned-list-waiting.png" alt="15-planned-list-waiting">
+                            <div class="card-caption">
+                                This row indicates that there is a request that is waiting for your confirmation.
+                            </div>
+                        </div>
+                        <div class="panel-card">
+                            <img class="card" src="picture\16-planned-confirmed.png" alt="16-planned-confirmed">
+                            <div class="card-caption">
+                                This row indicates that you have confirmed the request with yor friends.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page-of-movie's-states section">
+                <div class="name">
+                    <h3>Pages of movie’s states<h3>
+                    <div class="describe">
+                        If you access the page of a movie that is on your planned list, you will find information about it, such as who initiated the request, when and who will be watching it with you. Additionally, you have the option to cancel your request and leave the group for watching the movie.                   
+                     </div>
+                </div>
+                <div class="two-images">
+                    <img class="mobile-screen" src="picture\17-page-of-movie.png" alt="17-page-of-moviet">
+                    <img class="mobile-screen" src="picture\18-page-of-movie-down.png" alt="18-page-of-movie-down">
+                </div>
+            </section>
+            <section class="waiting-confirmation section">
+                    <div class="describe">
+                        This variant of movie’s page show us that you open movie which waiting your confirmation. Josef send request to you and you can confirm this or ignore. If you will confirm this request, you can cancel this if you want.                  
+                     </div>
+                <div class="two-images">
+                    <img class="mobile-screen" src="picture\19-page-of-movie-confirm.png" alt="19-page-of-movie-confirm">
+                    <img class="mobile-screen" src="picture\20-page-of-movie-cancel.png" alt="20-page-of-movie-cancel">
+                </div>
+            </section>
+            <section class="default-movie-page section">
+                <div class="two-images">
+                    <img class="mobile-screen" src="picture\21-page-of-movie-start.png" alt="21-page-of-movie-start">
+                    <div class="describe default-movie-page-caption">
+                        This page is the default option. It will be displayed if you choose to cancel or ignore the request. However, you can create your own request for this movie.
+                    </div>
+                </div>
+            </section>
+            <img class="animation" src="picture\planned-list.gif">
+            <section class="video-player section">
+                <h3>Video players for all</h3>
+                <div class="video-players">
+                    <div class="horizontal-player-caption">
+                        <img class="horizontal-player" src="picture\22-for-all-normal-without.png" alt="22-for-all-normal-without">
+                        <div class="caption-center">
+                            Without any condition
+                        </div>
+                    </div>
+                    <div class="horizontal-player-caption">
+                        <img class="horizontal-player" src="picture\23-watcjing-for-all-voice-chat-smth-speaking.png" alt="23-watcjing-for-all-voice-chat-smth-speaking">
+                        <div class="describe">
+                            When you use the voice chat and there are multiple speakers, the system should only display the two people who started speaking first
+                        </div>
+                    </div>
+                    <div class="horizontal-player-caption">
+                        <img class="horizontal-player" src="picture\24-watching-for-all-text-chat-normal.png" alt="24-watching-for-all-text-chat-normalt">
+                        <div class="caption-center">
+                            Read the text chat
+                        </div>
+                    </div>
+                    <div class="horizontal-player-caption">
+                        <img class="horizontal-player" src="picture\25-watching-for-all-text-chat-normal.png" alt="25-watching-for-all-text-chat-normal">
+                        <div class="caption-center">
+                            While typing
+                        </div>
+                    </div>
+                    <div class="vertical-status-describe name">
+                        <div class="two-images two-images-describes">
+                            <img class="mobile-screen" src="picture\26-vertical-player.png" alt="26-vertical-player">
+                            <div class="about-voice-status">
+                                <h3>About status</h3>
+                                <div class="voice-status-card">
+                                <img class="voice-status" src="picture/27-1-about-status.png" alt="27-1-about-status">
+                                <div class="describe">
+                                    The green border show us that the person are speaking
+                                </div>
+                                </div>
+                                <div class="voice-status-card">
+                                <img class="voice-status" src="picture/27-2-about-status.png" alt="27-2-about-status">
+                                <div class="describe">
+                                    The red border show us that the person are muted himself
+                                </div>
+                                </div>
+                                <div class="voice-status-card">
+                                <img class="voice-status" src="picture/27-3-about-status.png" alt="27-3-about-status">
+                                <div class="describe">
+                                    This is the default status
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="describe">
+                            When you use the voice chat and there are multiple speakers, the system should only display the four people who started speaking first
+                        </div>
+                    </div>
+                    <div class="two-images">
+                        <div class="vertical-caption-center">
+                            <img class="mobile-screen" src="picture\28-vertical-textchat.png" alt="28-vertical-textchat">
+                            <div class="caption-center">
+                                Read the text chat
+                            </div>
+                        </div>
+                        <div class="vertical-caption-center">
+                            <img class="mobile-screen" src="picture\29-vertical-chat-typing.png" alt="29-vertical-chat-typing">
+                            <div class="caption-center">
+                                While typing
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="video-players-for-host-and-guest-while-tap-on-movie-area section">
+                <div class="name">
+                    <h3>Video players for host and guest while tap on movie area</h3>
+                    <div class="describe">
+                        As a viewer, you will be able to see the title, timeline, and participants. If there are many participants, you can scroll up and down to view them all. However, the host has the ability to control the timeline and enable or disable subtitles, which are the primary differences from the guest player.
+                    </div>
+                </div>
+                <div class="horizontal-player-caption">
+                    <img class="horizontal-player" src="picture\30-host tap while watching in voice chat.png" alt="30-host tap while watching in voice chat">
+                    <div class="caption-center">
+                        For host
+                    </div>
+                </div>
+                <div class="horizontal-player-caption">
+                    <img class="horizontal-player" src="picture\31-guest-tap-while-watching-in-voice-chat.png" alt="31-guest-tap-while-watching-in-voice-chatt">
+                    <div class="caption-center">
+                        For guest
+                    </div>
+                </div>
+                <div class="two-images">
+                    <div class="vertical-caption-center">
+                        <img class="mobile-screen" src="picture\32-vertical-voice-chat.png" alt="32-vertical-voice-chat">
+                        <div class="caption-center">
+                            For host
+                        </div>
+                    </div>
+                    <div class="vertical-caption-center">
+                        <img class="mobile-screen" src="picture\33-vertical-voice-chat-guest.png" alt="33-vertical-voice-chat-guest">
+                        <div class="caption-center">
+                            For guest
+                        </div>
+                    </div>
+                </div>
+                <div class="describe">
+                    During the movie viewing, everyone can choose to hide or show the text chat on their device. This feature is not dependent on the host’s actions.
+                </div>
+                <div class="horizontal-player-caption">
+                    <img class="horizontal-player" src="picture\34-host-tap-while-watching-in-text-chat.png" alt="34-host-tap-while-watching-in-text-chat">
+                    <div class="caption-center">
+                        For host
+                    </div>
+                </div>
+                <div class="horizontal-player-caption">
+                    <img class="horizontal-player" src="picture\35-guest-tap-while-watching-in-text-chat.png" alt="35-guest-tap-while-watching-in-text-chat">
+                    <div class="caption-center">
+                        For guest
+                    </div>
+                </div>
+                <div class="horizontal-player-caption">
+                    <img class="horizontal-player" src="picture\36-1-host-hidden-text-chat-and-tap.png" alt="36-1-host-hidden-text-chat-and-tap">
+                    <div class="caption-center">
+                        For host
+                    </div>
+                </div>
+                <div class="horizontal-player-caption">
+                    <img class="horizontal-player" src="picture\36-guest-hidden-text-chat-and-tap.png" alt="36-guest-hidden-text-chat-and-tap">
+                    <div class="caption-center">
+                        For guest
+                    </div>
+                </div>
+                <div class="two-images">
+                    <div class="vertical-caption-center">
+                        <img class="mobile-screen" src="picture\37-vertical-chat-for-host.png" alt="37-vertical-chat-for-host">
+                        <div class="caption-center">
+                            For host
+                        </div>
+                    </div>
+                    <div class="vertical-caption-center">
+                        <img class="mobile-screen" src="picture\38-vertical-chat-for-guest.png" alt="38-vertical-chat-for-guestt">
+                        <div class="caption-center">
+                            For guest
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <img class="animation-horizontal" src="picture\text-chat.gif">
+            <section class="end-of-watching section">
+                <h3>End of watching</h3>
+                <div class="horizontal-player-caption">
+                    <img class="horizontal-player" src="picture\39-horizontal-end.png" alt="39-horizontal-end">
+                    <div class="caption-center">
+                        At the end of the movie, if you wish to watch another one, the host can select the next movie and start playing it
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+                <div class="copyright"> 
+                     © 2023
+                </div>
+        </footer>
+    </div>
+</body>
+</html>

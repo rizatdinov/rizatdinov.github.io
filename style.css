@@ -1,0 +1,214 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: Helvetica, 'Open sans', sans-serif;
+}
+
+a, a:visited { /* порядок правил для ссылок имеет значение */
+    color: black;
+    text-decoration: underline;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+a:hover {
+  color: rgb(160, 160, 160);
+  text-decoration:none;
+}
+
+
+
+a:focus, a:active {
+  color: #000000;
+  text-decoration: underline;
+
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+.header a:hover {
+    color: rgb(160, 160, 160);
+}
+
+
+body {
+    background: #FFFFFF;
+    
+}
+
+.header {
+    position: fixed;  
+    top: 0;  
+    z-index: 100;
+    width: 100%;
+    height: 83px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08);
+}
+
+.nav {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    max-width: 1546px;
+    height: 33px;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+
+}
+
+.daniel {
+    width: 50%;
+}
+
+.contact {
+    width: 40%;
+    max-width: 148px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 165px;
+    margin-top: 165px;
+}
+
+.main {
+    display: flex;
+    order: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    width:60vw;
+    max-width: 1018px;
+    margin: auto;
+    gap: 128px;
+}
+
+.about {
+    width: 100%;
+    max-width: 1018px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43,58px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    bottom: 0px;
+    order: 1;
+    /* border-top: 1px solid #e9ecef; */ 
+}
+
+.copyright {
+    position:relative;
+    width: 80vw;
+    max-width: 1546px;
+    margin:  0 auto;
+    height: 22px;
+    top: 50%;
+
+}
+
+@media (max-width: 760px) {
+
+    .nav {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21.79px;
+        gap: 118px;
+    }
+
+    .daniel {
+        width: 130%;
+    }
+
+    .about {
+        width: 100%;
+        max-width: 1018px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 33px;
+    }
+    
+    .portfolio {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24.51px;
+    }
+
+    .item {
+        gap: 16px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24.51px;
+    }
+
+    .copyright {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 18px;
+    }
+}

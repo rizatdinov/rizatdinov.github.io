@@ -1,0 +1,313 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: Helvetica, 'Open Sans', sans-serif;
+}
+
+a, a:visited { /* порядок правил для ссылок имеет значение */
+    color: black;
+    text-decoration: underline;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+a:hover {
+  color: rgb(160, 160, 160);
+  text-decoration:none;
+}
+
+a:focus, a:active {
+  color: #000000;
+  text-decoration: underline;
+
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+.header a:hover {
+    color: rgb(160, 160, 160);
+}
+
+
+body {
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    
+}
+
+h2 {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.header {
+    position: fixed;  
+    top: 0;  
+    z-index: 100;
+    width: 100%;
+    height: 83px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08);
+}
+
+.nav {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    max-width: 1546px;
+    height: 33px;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+
+}
+
+.daniel {
+    width: 50%;
+}
+
+.contact {
+    width: 40%;
+    max-width: 148px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 128px;
+    margin-top: 138px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 88px;
+    margin: auto;
+    width: 51.8vw;
+    min-width: 319px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+}
+
+.title-download, .education {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 29.1vw;
+    width: 51.8vw;
+    min-width: 319px;
+}
+
+.section-job {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 51.8vw;
+    min-width: 319px;
+}
+
+.job-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.job-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.post {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.company, .job-date {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.job-about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 24px;
+    gap: 16px;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    bottom: 0px;
+    order: 1;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* border-top: 1px solid #e9ecef; */ 
+}
+
+.copyright {
+    position:relative;
+    width: 80vw;
+    max-width: 1546px;
+    margin:  0 auto;
+    height: 22px;
+    top: 50%;
+
+}
+
+
+@media (max-width: 1780px) {
+
+    .title-download, .education {
+        gap: 25vw;
+
+    }
+
+}
+
+@media (max-width: 1500px) {
+
+    h2 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        width: 130%;
+    }
+
+    body {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .title-download, .education {
+        gap: 20vw;
+
+    }
+
+    .post {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+}
+
+@media (max-width: 1010px) {
+
+    h2 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        width: 130%;
+    }
+
+    .main {
+        gap: 48px;
+    }
+
+    .wrap {
+        gap:24px;
+    }
+
+    .title-download, .education {
+        gap: 15vw;
+
+    }
+
+    .post {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .company, .job-date {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+}
+
+@media (max-width: 760px) {
+
+    .nav {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21.79px;
+        gap: 118px;
+    }
+
+    .daniel {
+        width: 130%;
+    }
+
+    .download-cv {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .copyright {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 18px;
+    }
+}
