@@ -142,6 +142,7 @@ a:focus, a:active {
     font-weight: 400;
     font-size: 24px;
     line-height: 33px;
+    min-width: 319px;
 }
 
 .describe-block {
