@@ -203,6 +203,7 @@ ul {
     padding: 0px;
     gap: 24px;
     margin: auto;
+    min-width: 319px;
 }
 
 .backround-image {
