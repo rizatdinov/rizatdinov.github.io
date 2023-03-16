@@ -136,6 +136,7 @@ a:focus, a:active {
     font-size: 24px;
     line-height: 33px;
     padding: 0px;
+    min-width: 319px;
 }
 
 .title-block-regular {
@@ -143,6 +144,7 @@ a:focus, a:active {
     font-size: 24px;
     line-height: 33px;
     min-width: 319px;
+    text-align: center;
 }
 
 .describe-block {
