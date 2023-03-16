@@ -229,6 +229,7 @@ h2 {
     width: 20vw;
     margin: auto;
     text-align: center;
+    min-width: 319px;
 }
 
 .caption-left {
